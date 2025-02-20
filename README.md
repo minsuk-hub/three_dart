@@ -5,6 +5,7 @@ https://pub.dev/packages/three_dart/install
 
 https://pub.dev/packages/three_dart_jsm/install
 
+https://pub.dev/packages/opentype_dart/install
 
 
 # flutter_gl
