@@ -36,7 +36,25 @@ gl.clear(gl.COLOR_BUFFER_BIT);
 flutterGlPlugin.updateTexture(sourceTexture);
 ```
 
+## open gl context를 플러터와 공유하기
 
+## 안드로이드
+when init the plugin, save share opengl context with ThreeEgl,
+```
+ThreeEgl.setContext("shareContext", shareEglEnv.eglContext);
+```
+
+
+so you can get it use ThreeEgl lib, then create yourself opengl context share with "shareContext"
+```
+shareContext = ThreeEgl.getContext("shareContext");
+```
+
+## IOS
+for iOS the key is 3 ...
+```
+eAGLShareContext = ThreeEgl.getContext(key: 3);
+```
 
 
 # three_dart
@@ -44,7 +62,6 @@ flutterGlPlugin.updateTexture(sourceTexture);
 Dart 3d라이브러리입니다. an easy to use, lightweight, cross-platform, general purpose 3D library. 
 
 three.js rewrite by Dart. 3D for Flutter. Base on [flutter_gl](https://github.com/wasabia/flutter_gl)
-
 
 
 
