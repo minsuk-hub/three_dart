@@ -1,4 +1,4 @@
-# Flutter GL
+# flutter_gl
 ## import문
 ```
 import 'package:flutter_gl/flutter_gl.dart';
