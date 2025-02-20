@@ -5,6 +5,8 @@ Dart 3d라이브러리입니다. an easy to use, lightweight, cross-platform, ge
 three.js rewrite by Dart. 3D for Flutter. Base on [flutter_gl](https://github.com/wasabia/flutter_gl)
 
 
+import 'package:flutter_gl/flutter_gl.dart';
+
 support Web, iOS, Android, macOS, Windows
 
 Linux TODO, need flutter_gl support
