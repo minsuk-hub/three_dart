@@ -1,6 +1,6 @@
 # three_dart
 
-Dart 3D library. an easy to use, lightweight, cross-platform, general purpose 3D library. 
+Dart 3d라이브러리입니다. an easy to use, lightweight, cross-platform, general purpose 3D library. 
 
 three.js rewrite by Dart. 3D for Flutter. Base on [flutter_gl](https://github.com/wasabia/flutter_gl)
 
