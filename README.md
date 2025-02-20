@@ -3,6 +3,9 @@ https://pub.dev/packages/flutter_gl/install
 
 https://pub.dev/packages/three_dart/install
 
+https://pub.dev/packages/three_dart_jsm/install
+
+
 
 # flutter_gl
 ## import문
