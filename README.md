@@ -1,3 +1,8 @@
+# 설치 가이드
+https://pub.dev/packages/flutter_gl/install
+https://pub.dev/packages/three_dart/install
+
+
 # flutter_gl
 ## import문
 ```
